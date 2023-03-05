@@ -1,28 +1,35 @@
 import './App.css';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
+import { BrowserRouter } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import NavBar from './components/NavBar';
+
+//useeffect and usestate
+
+import { useState, useEffect } from 'react';
+
 
 function App() {
+  useEffect(() =>{
+    document.body.classList.add("body");
+    return () =>{
+      document.body.style.backgroundColor="black";
+      document.body.classList.remove("few");
+    }
+  },[])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
-    </div>
+    <>
+    <NavBar />
+
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/Home' element={<Home />} />
+    </Routes>
+
+    </>
   );
 }
 
