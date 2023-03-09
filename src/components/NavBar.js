@@ -36,10 +36,10 @@ const NavBar = () => {
         <NavLink activeClassName="active" className={activeLink === "Home" ? "nav-link actives" : "nav-link"} onClick={() => upDate("Home")} aria-current="page" to="Home">Home</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink activeClassName="active" className={activeLink === "skills" ? "nav-link actives" : "nav-link"} onClick={() => upDate("skills")} aria-current="page" to="">skills</NavLink>
+          <NavLink activeClassName="active" className={activeLink === "skills" ? "nav-link actives" : "nav-link"} onClick={() => upDate("skills")} aria-current="page" to="Skills">skills</NavLink>
         </li>
         <li className="nav-item">
-<NavLink activeClassName="active" className={activeLink === "Projects" ? "nav-link actives" : "nav-link"} onClick={() => upDate("Projects")} aria-current="page" to="">Projects</NavLink>
+<NavLink activeClassName="active" className={activeLink === "Projects" ? "nav-link actives" : "nav-link"} onClick={() => upDate("Projects")} aria-current="page" to="Projects">Projects</NavLink>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

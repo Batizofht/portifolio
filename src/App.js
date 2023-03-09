@@ -6,10 +6,13 @@ import { BrowserRouter } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
+import Footer from './components/footer';
 
 //useeffect and usestate
 
 import { useState, useEffect } from 'react';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 
 function App() {
@@ -27,8 +30,10 @@ function App() {
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/Home' element={<Home />} />
+      <Route path='/Home' element={<Skills />} />
+      <Route path='/Home' element={<Projects />} />
     </Routes>
-
+  <Footer />
     </>
   );
 }

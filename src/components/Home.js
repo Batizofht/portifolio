@@ -1,12 +1,18 @@
 import React from "react";
+import { Animation } from "./Animation";
 import Hero from "./Hero";
 import Part from "./Part";
 const Home = () => {
   return (
-    <div>
+<>
       <Hero />
       <Part />
-    </div>
+      <Animation />
+      
+      
+</>
+      
+  
   )
 }
 

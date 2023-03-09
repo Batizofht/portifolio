@@ -13,10 +13,25 @@ body{
   animation: rotate-animation 10s infinite linear;
 }
 .Images img{
+
   border-radius: 100%;
   width: 250px;
   animation: rotate-animation 10s infinite linear;
  
+}
+@media (max-width: 991px){
+  .Images{
+  padding: 15px;
+  border-radius: 100%;
+  width: 100px;
+  animation: rotate-animation 10s infinite linear;
+}
+  .Images img{
+    border-radius: 100%;
+    width: 100px;
+    animation: rotate-animation 10s infinite linear;
+   
+  }
 }
 @keyframes rotate-animation {
 	0% {

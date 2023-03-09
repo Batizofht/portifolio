@@ -54,7 +54,7 @@ const Hero = () => {
     <div className='Hero'>
           <div className="container col-xxl-8 px-4 py-5">
     <div className="row  flex-lg-row-reverse align-items-center g-5 py-5">
-      <div className="col-10 col-sm-8 col-lg-6">
+      <div className="col-10 col-sm-8 col-lg-6 inmidle">
         <div className='Images'>
         <img src="https://switchiify.com/u/classes/profile/logogo.jpg" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
         </div>

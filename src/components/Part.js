@@ -12,32 +12,32 @@ const Part = () => {
                <h6>PYTHONE</h6>
                <div  class="progress">
                      
-                    <div  class="progress-bar bg-dark" role="progressbar" aria-label="Success example" style={{width: "25%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="70"></div>
+                    <div  class="progress-bar bg-dark" role="progressbar" aria-label="Success example" style={{width: "80%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
              
                  <h6>JAVASVRIPT</h6>
                      <div class="progress">
-                       <div class="progress-bar bg-info" role="progressbar" aria-label="Info example" style={{width: "50%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="90"></div>
+                       <div class="progress-bar bg-dark" role="progressbar" aria-label="Info example" style={{width: "90%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                      </div>
                      <h6>NODE JS, NEXT JS, THREE.JS</h6>
                      <div class="progress">
-                       <div class="progress-bar bg-dark" role="progressbar" aria-label="Info example" style={{width: "50%"}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="80"></div>
+                       <div class="progress-bar bg-dark" role="progressbar" aria-label="Info example" style={{width: "85%"}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                      </div>
                      <h6>C++</h6>
                      <div class="progress">
-                       <div class="progress-bar bg-dark" role="progressbar" aria-label="Warning example" style={{width: "75%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="75"></div>
+                       <div class="progress-bar bg-dark" role="progressbar" aria-label="Warning example" style={{width: "70%"}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                      </div>
                      <h6>REACT AND REACT NATIVE</h6>
                      <div class="progress">
-                       <div class="progress-bar bg-dark" role="progressbar" aria-label="Danger example" style={{width:" 100%"}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="95"></div>
+                       <div class="progress-bar bg-dark" role="progressbar" aria-label="Danger example" style={{width:" 95%"}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>   
                     <h6>DJANGO</h6>
                      <div class="progress">
-                       <div class="progress-bar bg-dark" role="progressbar" aria-label="Danger example" style={{width:" 100%"}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="60"></div>
+                       <div class="progress-bar bg-dark" role="progressbar" aria-label="Danger example" style={{width:" 65%"}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                     </div> 
                     <h6>TESNORFOW</h6>
                      <div class="progress">
-                       <div class="progress-bar bg-dark" role="progressbar" aria-label="Danger example" style={{width:" 100%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="50"></div>
+                       <div class="progress-bar bg-dark" role="progressbar" aria-label="Danger example" style={{width:" 50%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div> 
                     <h6>PHP && JQUERY</h6>
                      <div class="progress">
@@ -73,6 +73,11 @@ const Part = () => {
                     </div>
                </div>
                <p className='text-light'>Mu Baptiste is a person who is the Chief Executive Officer at Switchiify Platforms.Am the CEO and Founder of Switchiify Platforms, President of SIHS CP and an AI Developer (mastered web and mobile dev)</p>
+               <div class="bg_move">
+        <i class="fas fa-palette"></i>
+        <h1>Building the future.</h1>
+        <h1 style={{fontSize:20}}>50+ projects.</h1>
+    </div>
           </div>          
       </div>
       </div>
